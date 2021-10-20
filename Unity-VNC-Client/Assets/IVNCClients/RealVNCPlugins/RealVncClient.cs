@@ -173,7 +173,7 @@ public class RealVncClient : MonoBehaviour, IVncClient
     /// <summary>
     /// Update the Desktop Image 
     /// </summary>
-    public bool updateDesktopImage()
+    public bool RequestUpdatedImage()
     {
         pluginInterface.CallPluginAtEndOfFrames();
         return true;
